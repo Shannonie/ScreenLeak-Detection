@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>/T C:\123.jpg /A -SSN[123]</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Emgu\emgucv-windows-x64-gpu 2.4.2.1777\bin\x64\;C:\Emgu\emgucv-windows-x64-gpu 2.4.2.1777\Emgu.CV.UI\</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartArguments>/R C:\G531GD_181350210017_20190418111632_PASS.jpg /A -SSN[GL704GM172896000122_20180903164520_PASS]</StartArguments>
+  </PropertyGroup>
+</Project>
