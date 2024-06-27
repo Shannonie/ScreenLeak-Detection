@@ -1,0 +1,11 @@
+#ifndef VERSION_H
+#define VERSION_H
+
+#define DIT_VERSION_MAJ 0
+#define DIT_VERSION_MID 0
+#define DIT_VERSION_MIN 0
+#define DIT_VERSION_BULD 0025
+#define DIT_VERSION_HASH b605c6f
+#define DIT_RELEASE_DATE "2021-07-27 17:59:35 +0800"
+
+#endif // VERSION_H
